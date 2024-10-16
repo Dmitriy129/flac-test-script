@@ -1,0 +1,154 @@
+Кратко:
+    rawAac - играет все
+    mp3InMp4 - играет только tizen 6.0
+
+Подробнее:
+
+fmp4Flac - не играет
+    url: https://cdn-demo.s3.yandex.net/654d34b5-1c79-4a0b-a24d-af7841e0ee14/STRM-9313-flac-samples/ff-13-fmp4-in-mp4.mp4
+    mimeType: audio/mp4; codecs="flac"
+    offset: 14263
+    [webos]
+        - 7.4.0: Error {"code":3,"message":"PIPELINE_ERROR_DECODE"}
+        - 5.4.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+    [tizen]
+        - 6.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+        - 5.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+
+fmp4Flac1 - не играет
+    url: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/1.mp4
+    mimeType: audio/mp4; codecs="flac"
+    offset: 9991
+    [webos]
+        - 7.4.0: Error {"code":3,"message":"PIPELINE_ERROR_DECODE"}
+        - 5.4.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+    [tizen]
+        - 6.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+        - 5.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+
+fmp4Flac2 - не играет
+    url: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/2.mp4
+    mimeType: audio/mp4; codecs="flac"
+    offset: 9823
+    [webos]
+        - 7.4.0: Error {"code":3,"message":"PIPELINE_ERROR_DECODE"}
+        - 5.4.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+    [tizen]
+        - 6.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+        - 5.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+
+fmp4Flac3 - не играет
+    url: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/3.mp4
+    mimeType: audio/mp4; codecs="flac"
+    offset: 6695
+    [webos]
+        - 7.4.0: Error {"code":3,"message":"PIPELINE_ERROR_DECODE"}
+        - 5.4.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+    [tizen]
+        - 6.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+        - 5.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+
+fmp4Flac4 - не играет
+    url: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/4.mp4
+    mimeType: audio/mp4; codecs="flac"
+    offset: 6163
+    [webos]
+        - 7.4.0: Error {"code":3,"message":"PIPELINE_ERROR_DECODE"}
+        - 5.4.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+    [tizen]
+        - 6.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+        - 5.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+
+fmp4Flac5 - не играет
+    url: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/5.mp4
+    mimeType: audio/mp4; codecs="flac"
+    offset: 10023
+    [webos]
+        - 7.4.0: Error {"code":3,"message":"PIPELINE_ERROR_DECODE"}
+        - 5.4.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+    [tizen]
+        - 6.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+        - 5.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+
+fmp4Flac6 - не играет
+    url: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/6.mp4
+    mimeType: audio/mp4; codecs="flac"
+    offset: 9663
+    [webos]
+        - 7.4.0: Error {"code":3,"message":"PIPELINE_ERROR_DECODE"}
+        - 5.4.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+    [tizen]
+        - 6.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+        - 5.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+
+fmp4Flac7 - не играет
+    url: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/7.mp4
+    mimeType: audio/mp4; codecs="flac"
+    offset: 8003
+    [webos]
+        - 7.4.0: Error {"code":3,"message":"PIPELINE_ERROR_DECODE"}
+        - 5.4.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+    [tizen]
+        - 6.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+        - 5.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+
+fmp4Flac8 - не играет
+    url: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/8.mp4
+    mimeType: audio/mp4; codecs="flac"
+    offset: 7315
+    [webos]
+        - 7.4.0: Error {"code":3,"message":"PIPELINE_ERROR_DECODE"}
+        - 5.4.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+    [tizen]
+        - 6.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+        - 5.0: Error {"code":4,"message":"MEDIA_ELEMENT_ERROR: Format error"}
+
+rawAac - играет
+    url: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/aac-sample-1.aac
+    mimeType: audio/aac
+    [webos]
+        - 7.4.0: OK
+        - 5.4.0: OK
+    [tizen]
+        - 6.0: OK
+        - 5.0: OK
+
+mp3InMp4 - играет (частично)
+    url: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/mp3-in-mp4-320.mp3
+    mimeType: audio/mpeg
+    [webos]
+        - 7.4.0: Error {"code":4,"message":"DECODER_ERROR_NOT_SUPPORTED: Invalid MP3 header data : sync 0x7f8 version 0x0 layer 0x3 bitrate_index 0x8 sample_rate_index 0x0 channel_mode 0x2"}
+        - 5.4.0: Error {"code":4,"message":": Invalid MP3 header data : sync 0x7f8 version 0x0 layer 0x3 bitrate_index 0x8 sample_rate_index 0x0 channel_mode 0x2"}
+    [tizen]
+        - 6.0: OK
+        - 5.0: Error {"code":3,"message":": Invalid header data : sync 0x7f8 version 0x0 layer 0x3 bitrate_index 0x8 sample_rate_index 0x0 channel_mode 0x2"}
+
+aacInMp4 - не играет
+    url: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/acc-in-mp4-192.aac
+    mimeType: audio/mp4; codecs="mp4a.40.2"
+    [webos]
+        - 7.4.0: Error {"code":4,"message":"CHUNK_DEMUXER_ERROR_APPEND_FAILED: Failure parsing MP4: Detected unfragmented MP4. Media Source Extensions require ISO BMFF moov to contain mvex to indicate that Movie Fragments are to be expected."}
+        - 5.4.0: Error {"code":4,"message":": Failure parsing MP4: Detected unfragmented MP4. Media Source Extensions require ISO BMFF moov to contain mvex to indicate that Movie Fragments are to be expected."}
+    [tizen]
+        - 6.0: Error {"code":3,"message":": Failure parsing MP4: Detected unfragmented MP4. Media Source Extensions require ISO BMFF moov to contain mvex to indicate that Movie Fragments are to be expected."}
+        - 5.0: Error {"code":3,"message":": Failure parsing MP4: Detected unfragmented MP4. Media Source Extensions require ISO BMFF moov to contain mvex to indicate that Movie Fragments are to be expected."}
+
+heaacInMp4 - не играет
+    url: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/g64he-in-mp4.aac
+    mimeType: audio/mp4; codecs="mp4a.40.5"
+    [webos]
+        - 7.4.0: Error {"code":4,"message":"CHUNK_DEMUXER_ERROR_APPEND_FAILED: Failure parsing MP4: Detected unfragmented MP4. Media Source Extensions require ISO BMFF moov to contain mvex to indicate that Movie Fragments are to be expected."}
+        - 5.4.0: Error {"code":4,"message":": Failure parsing MP4: Detected unfragmented MP4. Media Source Extensions require ISO BMFF moov to contain mvex to indicate that Movie Fragments are to be expected."}
+    [tizen]
+        - 6.0: Error {"code":3,"message":": Failure parsing MP4: Detected unfragmented MP4. Media Source Extensions require ISO BMFF moov to contain mvex to indicate that Movie Fragments are to be expected."}
+        - 5.0: Error {"code":3,"message":": Failure parsing MP4: Detected unfragmented MP4. Media Source Extensions require ISO BMFF moov to contain mvex to indicate that Movie Fragments are to be expected."}
+
+rawFlac - не играет
+    url: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/flac-raw.flac
+    mimeType: audio/flac
+    [webos]
+        - 7.4.0: Error DOMException: Failed to execute 'addSourceBuffer' on 'MediaSource': The type provided ('audio/flac') is unsupported.
+        - 5.4.0: Error DOMException: Failed to execute 'addSourceBuffer' on 'MediaSource': The type provided ('audio/flac') is unsupported.
+    [tizen]
+        - 6.0: Error DOMException: Failed to execute 'addSourceBuffer' on 'MediaSource': The type provided ('audio/flac') is unsupported. - не играет
+        - 5.0: Error DOMException: Failed to execute 'addSourceBuffer' on 'MediaSource': The type provided ('audio/flac') is unsupported.

@@ -74,6 +74,5 @@ heaacInMp4 - не играет
 
 rawFlac - не играет
     error: DOMException: Failed to execute 'addSourceBuffer' on 'MediaSource': The type provided ('audio/flac') is unsupported. - не играет
-    error: null
     "url":"https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/flac-raw.flac"
     "mimeType":"audio/flac"
