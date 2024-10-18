@@ -1,6 +1,10 @@
 Кратко:
-    rawAac - играет все
-    mp3InMp4 - играет только tizen 6.0
+    rawAac - играет 
+    mp3InMp4 - играет (только tizen 6.0)
+    fmp4Flac - не играет
+    aacInMp4 - не играет
+    heaacInMp4 - не играет
+    rawFlac - не играет
 
 Подробнее:
 
