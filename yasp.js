@@ -117,8 +117,8 @@ function run(t = 5) {
     function timer() {
         setTimeout(() => {
             console.log(`DEB Played: ${audio.currentTime}/${t}`);
-            window.controls.next()
-            if (currentDASH !== tracksDASH.length - 1) {
+            if (currentDASH !== 0) {
+                window.controls.next()
                 timer()
             }
         }, t * 1000)
