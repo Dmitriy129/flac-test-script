@@ -1,0 +1,554 @@
+ DEB-------------------------[0]-------------------------
+
+VM35:105 DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-10252940?container=mp4&codec=flac
+VM35:73 yasp setsource 0
+VM35:134 controls {audioYasp: audio#yasp, audio: audio#yasp, set: ƒ, previous: ƒ, next: ƒ}
+VM35:77 yasp canplay 663.5
+VM35:84 yasp play 663.6999999880791
+VM35:91 yasp timeupdate 923.1999999880791
+VM35:119 DEB Played: 4.265131/5
+VM35:104 
+ DEB-------------------------[1]-------------------------
+
+VM35:105 DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-10259247?container=mp4&codec=flac
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.5999999940395355
+VM35:77 yasp canplay 781.2000000178814
+VM35:84 yasp play 781.4000000059605
+1243e4e350-33cf-4073-95bf-594bd8c9924f:10599 Uncaught (in promise) Error: Failed to execute 'appendBuffer' on 'SourceBuffer': The SourceBuffer is full, and cannot free space to append additional buffers.
+    at new CustomError (43e4e350-33cf-4073-95bf-594bd8c9924f:5439:15)
+    at YaspError._createSuperInternal (43e4e350-33cf-4073-95bf-594bd8c9924f:5323:283)
+    at new YaspError (43e4e350-33cf-4073-95bf-594bd8c9924f:5336:20)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10599:20
+    at new Promise (<anonymous>)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10555:16
+    at _callee$ (43e4e350-33cf-4073-95bf-594bd8c9924f:10477:24)
+    at tryCatch (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:2404)
+    at Generator._invoke (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:1964)
+    at Generator.next (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:3255)
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10599
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10555
+_callee$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10477
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10353
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+waitAndLock @ 43e4e350-33cf-4073-95bf-594bd8c9924f:11216
+performNextOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10457
+planOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10521
+append @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10554
+_callee4$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9888
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9539
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+appendBuffer @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9897
+_callee2$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:7334
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6644
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6645
+VM35:119 DEB Played: 4.139252/5
+VM35:104 
+ DEB-------------------------[2]-------------------------
+
+VM35:105 DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-12608102?container=mp4&codec=flac
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.4000000059604645
+VM35:77 yasp canplay 433.59999999403954
+VM35:84 yasp play 433.80000001192093
+843e4e350-33cf-4073-95bf-594bd8c9924f:10599 Uncaught (in promise) Error: Failed to execute 'appendBuffer' on 'SourceBuffer': The SourceBuffer is full, and cannot free space to append additional buffers.
+    at new CustomError (43e4e350-33cf-4073-95bf-594bd8c9924f:5439:15)
+    at YaspError._createSuperInternal (43e4e350-33cf-4073-95bf-594bd8c9924f:5323:283)
+    at new YaspError (43e4e350-33cf-4073-95bf-594bd8c9924f:5336:20)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10599:20
+    at new Promise (<anonymous>)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10555:16
+    at _callee$ (43e4e350-33cf-4073-95bf-594bd8c9924f:10477:24)
+    at tryCatch (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:2404)
+    at Generator._invoke (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:1964)
+    at Generator.next (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:3255)
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10599
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10555
+_callee$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10477
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10353
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+waitAndLock @ 43e4e350-33cf-4073-95bf-594bd8c9924f:11216
+performNextOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10457
+planOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10521
+append @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10554
+_callee4$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9888
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9539
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+appendBuffer @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9897
+_callee2$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:7334
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6644
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6645
+VM35:119 DEB Played: 4.48691/5
+VM35:104 
+ DEB-------------------------[3]-------------------------
+
+VM35:105 DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13447407?container=mp4&codec=flac
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.7000000178813934
+VM35:77 yasp canplay 620.5999999940395
+VM35:84 yasp play 620.7000000178814
+743e4e350-33cf-4073-95bf-594bd8c9924f:10599 Uncaught (in promise) Error: Failed to execute 'appendBuffer' on 'SourceBuffer': The SourceBuffer is full, and cannot free space to append additional buffers.
+    at new CustomError (43e4e350-33cf-4073-95bf-594bd8c9924f:5439:15)
+    at YaspError._createSuperInternal (43e4e350-33cf-4073-95bf-594bd8c9924f:5323:283)
+    at new YaspError (43e4e350-33cf-4073-95bf-594bd8c9924f:5336:20)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10599:20
+    at new Promise (<anonymous>)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10555:16
+    at _callee$ (43e4e350-33cf-4073-95bf-594bd8c9924f:10477:24)
+    at tryCatch (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:2404)
+    at Generator._invoke (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:1964)
+    at Generator.next (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:3255)
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10599
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10555
+_callee$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10477
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10353
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+waitAndLock @ 43e4e350-33cf-4073-95bf-594bd8c9924f:11216
+performNextOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10457
+planOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10521
+append @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10554
+_callee4$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9888
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9539
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+appendBuffer @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9897
+_callee2$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:7334
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6644
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6645
+VM35:119 DEB Played: 4.300099/5
+VM35:104 
+ DEB-------------------------[4]-------------------------
+
+VM35:105 DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13487595?container=mp4&codec=flac
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.3999999761581421
+VM35:77 yasp canplay 381.19999998807907
+VM35:84 yasp play 381.39999997615814
+243e4e350-33cf-4073-95bf-594bd8c9924f:10599 Uncaught (in promise) Error: Failed to execute 'appendBuffer' on 'SourceBuffer': The SourceBuffer is full, and cannot free space to append additional buffers.
+    at new CustomError (43e4e350-33cf-4073-95bf-594bd8c9924f:5439:15)
+    at YaspError._createSuperInternal (43e4e350-33cf-4073-95bf-594bd8c9924f:5323:283)
+    at new YaspError (43e4e350-33cf-4073-95bf-594bd8c9924f:5336:20)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10599:20
+    at new Promise (<anonymous>)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10555:16
+    at _callee$ (43e4e350-33cf-4073-95bf-594bd8c9924f:10477:24)
+    at tryCatch (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:2404)
+    at Generator._invoke (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:1964)
+    at Generator.next (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:3255)
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10599
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10555
+_callee$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10477
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10353
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+waitAndLock @ 43e4e350-33cf-4073-95bf-594bd8c9924f:11216
+performNextOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10457
+planOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10521
+append @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10554
+_callee4$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9888
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9539
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+appendBuffer @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9897
+_callee2$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:7334
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6644
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6645
+VM35:119 DEB Played: 4.548867/5
+VM35:104 
+ DEB-------------------------[5]-------------------------
+
+VM35:105 DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13812230?container=mp4&codec=flac
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.800000011920929
+VM35:77 yasp canplay 581
+VM35:84 yasp play 581.2000000178814
+VM35:119 DEB Played: 4.341279/5
+VM35:104 
+ DEB-------------------------[6]-------------------------
+
+VM35:105 DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13858549?container=mp4&codec=flac
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.4000000059604645
+VM35:77 yasp canplay 424.40000000596046
+VM35:84 yasp play 424.5
+1443e4e350-33cf-4073-95bf-594bd8c9924f:10599 Uncaught (in promise) Error: Failed to execute 'appendBuffer' on 'SourceBuffer': The SourceBuffer is full, and cannot free space to append additional buffers.
+    at new CustomError (43e4e350-33cf-4073-95bf-594bd8c9924f:5439:15)
+    at YaspError._createSuperInternal (43e4e350-33cf-4073-95bf-594bd8c9924f:5323:283)
+    at new YaspError (43e4e350-33cf-4073-95bf-594bd8c9924f:5336:20)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10599:20
+    at new Promise (<anonymous>)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10555:16
+    at _callee$ (43e4e350-33cf-4073-95bf-594bd8c9924f:10477:24)
+    at tryCatch (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:2404)
+    at Generator._invoke (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:1964)
+    at Generator.next (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:3255)
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10599
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10555
+_callee$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10477
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10353
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+waitAndLock @ 43e4e350-33cf-4073-95bf-594bd8c9924f:11216
+performNextOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10457
+planOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10521
+append @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10554
+_callee4$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9888
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9539
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+appendBuffer @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9897
+_callee2$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:7334
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6644
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6645
+VM35:119 DEB Played: 4.502974/5
+VM35:104 
+ DEB-------------------------[7]-------------------------
+
+VM35:105 DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-14536769?container=mp4&codec=flac
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.5999999940395355
+VM35:77 yasp canplay 612.8000000119209
+VM35:84 yasp play 613
+1643e4e350-33cf-4073-95bf-594bd8c9924f:10599 Uncaught (in promise) Error: Failed to execute 'appendBuffer' on 'SourceBuffer': The SourceBuffer is full, and cannot free space to append additional buffers.
+    at new CustomError (43e4e350-33cf-4073-95bf-594bd8c9924f:5439:15)
+    at YaspError._createSuperInternal (43e4e350-33cf-4073-95bf-594bd8c9924f:5323:283)
+    at new YaspError (43e4e350-33cf-4073-95bf-594bd8c9924f:5336:20)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10599:20
+    at new Promise (<anonymous>)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10555:16
+    at _callee$ (43e4e350-33cf-4073-95bf-594bd8c9924f:10477:24)
+    at tryCatch (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:2404)
+    at Generator._invoke (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:1964)
+    at Generator.next (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:3255)
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10599
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10555
+_callee$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10477
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10353
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+waitAndLock @ 43e4e350-33cf-4073-95bf-594bd8c9924f:11216
+performNextOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10457
+planOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10521
+append @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10554
+_callee4$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9888
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9539
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+appendBuffer @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9897
+_callee2$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:7334
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6644
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6645
+VM35:119 DEB Played: 4.325132/5
+VM35:104 
+ DEB-------------------------[8]-------------------------
+
+VM35:105 DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-247518?container=mp4&codec=flac
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.5999999940395355
+VM35:77 yasp canplay 361.5
+VM35:84 yasp play 361.69999998807907
+VM35:119 DEB Played: 4.570886/5
+VM35:104 
+ DEB-------------------------[9]-------------------------
+
+VM35:105 DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-762838?container=mp4&codec=flac
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.800000011920929
+VM35:77 yasp canplay 594
+VM35:84 yasp play 594.3000000119209
+VM35:119 DEB Played: 4.331708/5
+VM35:104 
+ DEB-------------------------[10]-------------------------
+
+VM35:105 DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-8135003?container=mp4&codec=flac
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.699999988079071
+VM35:77 yasp canplay 652.5999999940395
+VM35:84 yasp play 652.6999999880791
+443e4e350-33cf-4073-95bf-594bd8c9924f:10599 Uncaught (in promise) Error: Failed to execute 'appendBuffer' on 'SourceBuffer': The SourceBuffer is full, and cannot free space to append additional buffers.
+    at new CustomError (43e4e350-33cf-4073-95bf-594bd8c9924f:5439:15)
+    at YaspError._createSuperInternal (43e4e350-33cf-4073-95bf-594bd8c9924f:5323:283)
+    at new YaspError (43e4e350-33cf-4073-95bf-594bd8c9924f:5336:20)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10599:20
+    at new Promise (<anonymous>)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10555:16
+    at _callee$ (43e4e350-33cf-4073-95bf-594bd8c9924f:10477:24)
+    at tryCatch (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:2404)
+    at Generator._invoke (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:1964)
+    at Generator.next (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:3255)
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10599
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10555
+_callee$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10477
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10353
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+waitAndLock @ 43e4e350-33cf-4073-95bf-594bd8c9924f:11216
+performNextOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10457
+planOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10521
+append @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10554
+_callee4$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9888
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9539
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+appendBuffer @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9897
+_callee2$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:7334
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6644
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6645
+VM35:119 DEB Played: 4.275515/5
+VM35:104 
+ DEB-------------------------[11]-------------------------
+
+VM35:105 DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-876383?container=mp4&codec=flac
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.6000000238418579
+VM35:77 yasp canplay 339.7000000178814
+VM35:84 yasp play 339.90000000596046
+343e4e350-33cf-4073-95bf-594bd8c9924f:10599 Uncaught (in promise) Error: Failed to execute 'appendBuffer' on 'SourceBuffer': The SourceBuffer is full, and cannot free space to append additional buffers.
+    at new CustomError (43e4e350-33cf-4073-95bf-594bd8c9924f:5439:15)
+    at YaspError._createSuperInternal (43e4e350-33cf-4073-95bf-594bd8c9924f:5323:283)
+    at new YaspError (43e4e350-33cf-4073-95bf-594bd8c9924f:5336:20)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10599:20
+    at new Promise (<anonymous>)
+    at 43e4e350-33cf-4073-95bf-594bd8c9924f:10555:16
+    at _callee$ (43e4e350-33cf-4073-95bf-594bd8c9924f:10477:24)
+    at tryCatch (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:2404)
+    at Generator._invoke (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:1964)
+    at Generator.next (43e4e350-33cf-4073-95bf-594bd8c9924f:10352:3255)
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10599
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10555
+_callee$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10477
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10352
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10353
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10354
+waitAndLock @ 43e4e350-33cf-4073-95bf-594bd8c9924f:11216
+performNextOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10457
+planOperation @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10521
+append @ 43e4e350-33cf-4073-95bf-594bd8c9924f:10554
+_callee4$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9888
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9538
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9539
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9540
+appendBuffer @ 43e4e350-33cf-4073-95bf-594bd8c9924f:9897
+_callee2$ @ 43e4e350-33cf-4073-95bf-594bd8c9924f:7334
+tryCatch @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+(anonymous) @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6643
+asyncGeneratorStep @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6644
+_next @ 43e4e350-33cf-4073-95bf-594bd8c9924f:6645
+VM35:119 DEB Played: 4.585762/5
+VM35:104 
+ DEB-------------------------[12]-------------------------
+
+VM35:105 DEB Audio: https://cdn-demo.s3.yandex.net/654d34b5-1c79-4a0b-a24d-af7841e0ee14/STRM-9313-flac-samples/ff-13-fmp4-in-mp4.mp4
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.20000001788139343
+VM35:77 yasp canplay 301.7000000178814
+VM35:84 yasp play 301.90000000596046
+VM35:119 DEB Played: 4.627042/5
+VM35:104 
+ DEB-------------------------[13]-------------------------
+
+VM35:105 DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/1.mp4
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.5
+VM35:77 yasp canplay 420.59999999403954
+VM35:84 yasp play 420.69999998807907
+VM35:119 DEB Played: 4.521582/5
+VM35:104 
+ DEB-------------------------[14]-------------------------
+
+VM35:105 DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/2.mp4
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 1.2999999821186066
+VM35:77 yasp canplay 391.19999998807907
+VM35:84 yasp play 473.09999999403954
+VM35:119 DEB Played: 4.459833/5
+VM35:104 
+ DEB-------------------------[15]-------------------------
+
+VM35:105 DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/3.mp4
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.5999999940395355
+VM35:77 yasp canplay 303.2999999821186
+VM35:84 yasp play 335.90000000596046
+VM35:119 DEB Played: 4.590561/5
+VM35:104 
+ DEB-------------------------[16]-------------------------
+
+VM35:105 DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/4.mp4
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.4000000059604645
+VM35:77 yasp canplay 269.40000000596046
+VM35:84 yasp play 296
+VM35:119 DEB Played: 4.650057/5
+VM35:104 
+ DEB-------------------------[17]-------------------------
+
+VM35:105 DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/5.mp4
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.5
+VM35:77 yasp canplay 220.89999997615814
+VM35:84 yasp play 234.19999998807907
+VM35:119 DEB Played: 4.705258/5
+VM35:104 
+ DEB-------------------------[18]-------------------------
+
+VM35:105 DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/6.mp4
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 1.100000023841858
+VM35:77 yasp canplay 219
+VM35:84 yasp play 239.40000000596046
+VM35:119 DEB Played: 4.692664/5
+VM35:104 
+ DEB-------------------------[19]-------------------------
+
+VM35:105 DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/7.mp4
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.5
+VM35:77 yasp canplay 243.7000000178814
+VM35:84 yasp play 248.2000000178814
+VM35:119 DEB Played: 4.67937/5
+VM35:104 
+ DEB-------------------------[20]-------------------------
+
+VM35:105 DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/8.mp4
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.5999999940395355
+VM35:77 yasp canplay 422.5
+VM35:84 yasp play 429
+VM35:119 DEB Played: 4.49583/5
+VM35:104 
+ DEB-------------------------[21]-------------------------
+
+VM35:105 DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/aac-sample-1.aac
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.7000000178813934
+VM35:77 yasp canplay 504.80000001192093
+VM35:84 yasp play 504.90000000596046
+VM35:119 DEB Played: 4.432565/5
+VM35:104 
+ DEB-------------------------[22]-------------------------
+
+VM35:105 DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/mp3-in-mp4-320.mp3
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.4000000059604645
+VM35:77 yasp canplay 269.7999999821186
+VM35:84 yasp play 270
+VM35:119 DEB Played: 4.655279/5
+VM35:104 
+ DEB-------------------------[23]-------------------------
+
+VM35:105 DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/acc-in-mp4-192.aac
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.5
+VM35:77 yasp canplay 263
+VM35:84 yasp play 263.19999998807907
+VM35:119 DEB Played: 4.670336/5
+VM35:104 
+ DEB-------------------------[24]-------------------------
+
+VM35:105 DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/g64he-in-mp4.aac
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.5
+VM35:77 yasp canplay 207.2999999821186
+VM35:84 yasp play 207.40000000596046
+VM35:119 DEB Played: 4.724243/5
+VM35:104 
+ DEB-------------------------[25]-------------------------
+
+VM35:105 DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/flac-raw.flac
+VM35:73 yasp setsource 0
+VM35:91 yasp timeupdate 0.30000001192092896
+VM35:77 yasp canplay 375.5
+VM35:84 yasp play 375.59999999403954
+VM35:119 DEB Played: 4.555234/5
