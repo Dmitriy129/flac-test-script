@@ -3,14 +3,12 @@ audioFiles = {
         url: 'https://cdn-demo.s3.yandex.net/654d34b5-1c79-4a0b-a24d-af7841e0ee14/STRM-9313-flac-samples/ff-13-fmp4-in-mp4.mp4',
         mimeType: 'audio/mp4; codecs="flac"',
         offset: 14263,
-        contentLength: 65537,
         maxContentLength: 39859449
     },
     fmp4Flac1: {
         url: 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/1.mp4',
         mimeType: 'audio/mp4; codecs="flac"',
         offset: 9991,
-        contentLength: 65537,
         maxContentLength: 27097597
 
     },
@@ -18,7 +16,6 @@ audioFiles = {
         url: 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/2.mp4',
         mimeType: 'audio/mp4; codecs="flac"',
         offset: 9823,
-        contentLength: 65537,
         maxContentLength: 26742496
 
     },
@@ -26,7 +23,6 @@ audioFiles = {
         url: 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/3.mp4',
         mimeType: 'audio/mp4; codecs="flac"',
         offset: 6695,
-        contentLength: 65537,
         maxContentLength: 16788429
 
     },
@@ -34,7 +30,6 @@ audioFiles = {
         url: 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/4.mp4',
         mimeType: 'audio/mp4; codecs="flac"',
         offset: 6163,
-        contentLength: 65537,
         maxContentLength: 14384615
 
     },
@@ -42,7 +37,6 @@ audioFiles = {
         url: 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/5.mp4',
         mimeType: 'audio/mp4; codecs="flac"',
         offset: 10023,
-        contentLength: 65537,
         maxContentLength: 42410486
 
     },
@@ -50,7 +44,6 @@ audioFiles = {
         url: 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/6.mp4',
         mimeType: 'audio/mp4; codecs="flac"',
         offset: 9663,
-        contentLength: 65537,
         maxContentLength: 15919130
 
     },
@@ -58,7 +51,6 @@ audioFiles = {
         url: 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/7.mp4',
         mimeType: 'audio/mp4; codecs="flac"',
         offset: 8003,
-        contentLength: 65537,
         maxContentLength: 18879206
 
     },
@@ -66,7 +58,6 @@ audioFiles = {
         url: 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/8.mp4',
         mimeType: 'audio/mp4; codecs="flac"',
         offset: 7315,
-        contentLength: 65537,
         maxContentLength: 20974562
 
     },
@@ -74,7 +65,6 @@ audioFiles = {
         url: 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/aac-sample-1.aac',
         // url: 'https://strm-test.msermakov.music.dev.yandex.ru/aac-sample-1.aac',
         mimeType: 'audio/aac',
-        contentLength: 65537,
         maxContentLength: 2049390
 
 
@@ -83,7 +73,6 @@ audioFiles = {
         url: 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/mp3-in-mp4-320.mp3',
         // url: 'https://strm-test.msermakov.music.dev.yandex.ru/mp3-samples/2/mp3-in-mp4-320.mp3',
         mimeType: 'audio/mpeg',
-        contentLength: 65537,
         maxContentLength: 6643461
 
 
@@ -92,7 +81,6 @@ audioFiles = {
         url: 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/acc-in-mp4-192.aac',
         // url: 'https://strm-test.msermakov.music.dev.yandex.ru/acc-samples/2/acc-in-mp4-192.aac',
         mimeType: 'audio/mp4; codecs="mp4a.40.2"',
-        contentLength: 65537,
         maxContentLength: 4136928
 
 
@@ -101,7 +89,6 @@ audioFiles = {
         url: 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/g64he-in-mp4.aac',
         // url: 'https://strm-test.msermakov.music.dev.yandex.ru/acc-samples/1/g64he-in-mp4.aac',
         mimeType: 'audio/mp4; codecs="mp4a.40.5"',
-        contentLength: 65537,
         maxContentLength: 1427523
 
 
@@ -110,7 +97,6 @@ audioFiles = {
         url: 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/flac-raw.flac',
         // url: 'https://strm-test.msermakov.music.dev.yandex.ru/flac-samples/flac-raw/flac-raw.flac',
         mimeType: 'audio/flac',
-        contentLength: 65537,
         maxContentLength: 39829982
     },
 }
@@ -119,14 +105,14 @@ audioFiles = {
 
 async function testAudio(audioType, chunksCount) {
     const queue = []
-    async function createMediaSource({ url, mimeType, offset, contentLength, maxContentLength }) {
+    async function createMediaSource({ url, mimeType, offset, maxContentLength }) {
         // Создаем MSE
         const mediaSource = new MediaSource();
 
         // Полный размер файла
         let size = Math.min(64 * 1024 * chunksCount, maxContentLength);
         // const size = maxContentLength
-        const chunkSize = 64 * 1024;
+        const chunkSize = 64 * 1024 * 1
 
         // Кол-во загруженных байтов
         let loadedBytes = typeof offset !== 'undefined' ? offset : 0;
@@ -153,8 +139,7 @@ async function testAudio(audioType, chunksCount) {
                 buffer = await response.arrayBuffer();
                 window.cb[`${audioType}-${loadedBytes}-${end}`] = buffer
             }
-            // console.log('loadedBytes', loadedBytes, contentLength)
-            loadedBytes = loadedBytes + contentLength;
+            loadedBytes = loadedBytes + chunkSize + 1;
 
             return buffer
 
@@ -220,10 +205,13 @@ async function testAudio(audioType, chunksCount) {
     document.body.appendChild(audio)
     audio.autoplay = true
     audio.src = await createMediaSource(audioConfig)
+    // audio.src = audioConfig.url
+
     // const audio = document.createElement('audio')
     // document.body.appendChild(audio)
     // audio.autoplay = true
     // audio.src = 'https://cdn-demo.s3.yandex.net/654d34b5-1c79-4a0b-a24d-af7841e0ee14/STRM-9313-flac-samples/ff-13-fmp4-in-mp4.mp4'
+
     // audio.play()
 
     return {
@@ -238,8 +226,8 @@ async function testAudio(audioType, chunksCount) {
 
 
 function run(timer = 10, chunksCount = timer + 2) {
-    const audioTypes = Object.keys(audioFiles)
-    // const audioTypes = ['aacInMp4']
+    // const audioTypes = Object.keys(audioFiles)
+    const audioTypes = ['aacInMp4']
     // const audioTypes = ['rawAac']
     // const audioTypes = ['fmp4Flac1']
     // const audioTypes = [
@@ -255,18 +243,12 @@ function run(timer = 10, chunksCount = timer + 2) {
     // ]
     const testPromises = audioTypes.map((audioType) => () => {
         return new Promise(async (resolve) => {
-            // console.log(`__________${audioType}`);
             console.log(`${audioType}`);
             const result = await testAudio(audioType, chunksCount)
-            // console.log(`__________    MediaSourceSupported: ${result.MediaSourceSupported}`);
-            // console.log(`__________    AudioSupported: ${result.AudioSupported}`);
             console.log(`    MediaSourceSupported: ${result.MediaSourceSupported}`);
             console.log(`    AudioSupported: ${result.AudioSupported}`);
             setTimeout(() => {
                 result.element.pause()
-                // console.log(`__________    error: ${result.element.error && JSON.stringify({ code: result.element.error.code, message: result.element.error.message })}`);
-                // console.log(`__________    played: ${result.element.currentTime}`);
-                // console.log(`__________    config: ${JSON.stringify(result.config)}`);
                 console.log(`    audio.error: ${result.element.error && JSON.stringify({ code: result.element.error.code, message: result.element.error.message })}`);
                 console.log(`    played: ${result.element.currentTime}/${timer}`);
                 console.log(`    config: ${JSON.stringify(result.config)}`);
