@@ -1,0 +1,281 @@
+ DEB-------------------------[0]-------------------------
+
+DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-10252940?container=mp4&codec=flac
+yasp setsource 0
+controls {audioYasp: audio#yasp, audio: audio#yasp, set: ƒ, previous: ƒ, next: ƒ}
+DEB Played: 0/5
+
+ DEB-------------------------[1]-------------------------
+
+DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-10259247?container=mp4&codec=flac
+yasp setsource 0
+yasp timeupdate 5040.144999999029
+yasp timeupdate 29.844999997294508
+DEB Played: 0/5
+
+ DEB-------------------------[2]-------------------------
+
+DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-12608102?container=mp4&codec=flac
+yasp setsource 0
+yasp timeupdate 26.29999999771826
+DEB Played: 0/5
+
+ DEB-------------------------[3]-------------------------
+
+DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13447407?container=mp4&codec=flac
+yasp setsource 0
+yasp timeupdate 24.72000000125263
+yasp.js:4313 Uncaught (in promise) Error: Failed to execute 'appendBuffer' on 'SourceBuffer': The HTMLMediaElement.error attribute is not null.
+    at new CustomError (yasp.js:4376)
+    at YaspError._createSuperInternal (yasp.js:31852)
+    at new YaspError (yasp.js:31865)
+    at yasp.js:18477
+    at new Promise (<anonymous>)
+    at yasp.js:18433
+    at _callee$ (yasp.js:18355)
+    at tryCatch (yasp.js:18230)
+    at Generator._invoke (yasp.js:18230)
+    at Generator.next (yasp.js:18230)
+_construct @ yasp.js:4313
+Wrapper @ yasp.js:4312
+_createSuperInternal @ yasp.js:4309
+CustomError @ yasp.js:4344
+_createSuperInternal @ yasp.js:31852
+YaspError @ yasp.js:31865
+(anonymous) @ yasp.js:18477
+(anonymous) @ yasp.js:18433
+_callee$ @ yasp.js:18355
+tryCatch @ yasp.js:18230
+(anonymous) @ yasp.js:18230
+(anonymous) @ yasp.js:18230
+asyncGeneratorStep @ yasp.js:18231
+_next @ yasp.js:18232
+(anonymous) @ yasp.js:18232
+(anonymous) @ yasp.js:18232
+waitAndLock @ yasp.js:8329
+performNextOperation @ yasp.js:18335
+planOperation @ yasp.js:18399
+append @ yasp.js:18432
+_callee4$ @ yasp.js:17826
+tryCatch @ yasp.js:17476
+(anonymous) @ yasp.js:17476
+(anonymous) @ yasp.js:17476
+asyncGeneratorStep @ yasp.js:17477
+_next @ yasp.js:17478
+(anonymous) @ yasp.js:17478
+(anonymous) @ yasp.js:17478
+appendBuffer @ yasp.js:17835
+_callee2$ @ yasp.js:22755
+tryCatch @ yasp.js:22064
+(anonymous) @ yasp.js:22064
+(anonymous) @ yasp.js:22064
+asyncGeneratorStep @ yasp.js:22065
+_next @ yasp.js:22066
+Show 5 more frames
+DEB Played: 0/5
+
+ DEB-------------------------[4]-------------------------
+
+DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13487595?container=mp4&codec=flac
+yasp setsource 0
+yasp timeupdate 26.059999996505212
+DEB Played: 0/5
+
+ DEB-------------------------[5]-------------------------
+
+DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13812230?container=mp4&codec=flac
+yasp setsource 0
+yasp timeupdate 26.279999998223502
+DEB Played: 0/5
+
+ DEB-------------------------[6]-------------------------
+
+DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13858549?container=mp4&codec=flac
+yasp setsource 0
+yasp timeupdate 22.91500000137603
+DEB Played: 0/5
+
+ DEB-------------------------[7]-------------------------
+
+DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-14536769?container=mp4&codec=flac
+yasp setsource 0
+yasp timeupdate 27.63499999855412
+DEB Played: 0/5
+
+ DEB-------------------------[8]-------------------------
+
+DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-247518?container=mp4&codec=flac
+yasp setsource 0
+yasp timeupdate 25.325000002339948
+DEB Played: 0/5
+
+ DEB-------------------------[9]-------------------------
+
+DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-762838?container=mp4&codec=flac
+yasp setsource 0
+yasp timeupdate 27.520000003278255
+DEB Played: 0/5
+
+ DEB-------------------------[10]-------------------------
+
+DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-8135003?container=mp4&codec=flac
+yasp setsource 0
+yasp timeupdate 22.555000003194436
+DEB Played: 0/5
+
+ DEB-------------------------[11]-------------------------
+
+DEB Audio: https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-876383?container=mp4&codec=flac
+yasp setsource 0
+yasp timeupdate 25.99999999802094
+DEB Played: 0/5
+
+ DEB-------------------------[12]-------------------------
+
+DEB Audio: https://cdn-demo.s3.yandex.net/654d34b5-1c79-4a0b-a24d-af7841e0ee14/STRM-9313-flac-samples/ff-13-fmp4-in-mp4.mp4
+yasp setsource 0
+yasp timeupdate 3.0800000022281893
+yasp canplay 60839.76999999868
+yasp canplay 55828.66500000091
+yasp canplay 50813.75999999727
+yasp canplay 45801.41999999614
+yasp canplay 40788.7550000014
+yasp canplay 35777.99500000401
+yasp canplay 30766.790000001492
+yasp canplay 25759.809999995923
+yasp canplay 20749.745000000985
+yasp canplay 15741.939999999886
+yasp canplay 10734.739999999874
+yasp canplay 5725.115000001097
+yasp canplay 716.8450000026496
+yasp play 60850.6750000015
+yasp play 55840.29500000179
+yasp play 50825.38499999646
+yasp play 45813.04999999702
+yasp play 40801.01999999897
+yasp play 35789.72500000236
+yasp play 30778.590000001714
+yasp play 25771.410000001197
+yasp play 20760.809999999765
+yasp play 15755.785000001197
+yasp play 10748.465000004217
+yasp play 5738.9599999951315
+yasp play 731.1350000018138
+DEB Played: 4.236/5
+
+ DEB-------------------------[13]-------------------------
+
+DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/1.mp4
+yasp setsource 0
+yasp timeupdate 1.295000001846347
+yasp canplay 892.0749999961117
+yasp play 893.0699999982608
+DEB Played: 4.069/5
+
+ DEB-------------------------[14]-------------------------
+
+DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/2.mp4
+yasp setsource 0
+yasp timeupdate 14.5600000032573
+yasp canplay 766.9850000020233
+yasp play 768.1000000011409
+DEB Played: 4.19/5
+
+ DEB-------------------------[15]-------------------------
+
+DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/3.mp4
+yasp setsource 0
+yasp timeupdate 1.3800000015180558
+yasp canplay 744.7499999980209
+yasp play 748.3199999987846
+DEB Played: 4.166/5
+
+ DEB-------------------------[16]-------------------------
+
+DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/4.mp4
+yasp setsource 0
+yasp timeupdate 2.560000000812579
+yasp canplay 822.5250000032247
+yasp play 832.5600000025588
+DEB Played: 4.113/5
+
+ DEB-------------------------[17]-------------------------
+
+DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/5.mp4
+yasp setsource 0
+yasp timeupdate 2.954999996291008
+yasp canplay 840.7099999967613
+yasp play 843.4100000013132
+DEB Played: 4.128/5
+
+ DEB-------------------------[18]-------------------------
+
+DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/6.mp4
+yasp setsource 0
+yasp timeupdate 2.8099999981350265
+yasp canplay 889.7849999993923
+yasp play 900.5900000047404
+DEB Played: 4.089/5
+
+ DEB-------------------------[19]-------------------------
+
+DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/7.mp4
+yasp setsource 0
+yasp timeupdate 1.7250000018975697
+yasp canplay 773.0250000022352
+yasp play 773.9250000013271
+DEB Played: 4.165/5
+
+ DEB-------------------------[20]-------------------------
+
+DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/8.mp4
+yasp setsource 0
+yasp timeupdate 5.25999999808846
+yasp canplay 822.7150000020629
+yasp play 824.254999999539
+DEB Played: 4.131/5
+
+ DEB-------------------------[21]-------------------------
+
+DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/aac-sample-1.aac
+yasp setsource 0
+yasp timeupdate 1.5399999974761158
+yasp canplay 752.039999999397
+yasp play 755.1250000033178
+DEB Played: 4.195/5
+
+ DEB-------------------------[22]-------------------------
+
+DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/mp3-in-mp4-320.mp3
+yasp setsource 0
+yasp timeupdate 2.0000000004074536
+yasp canplay 688.2100000002538
+yasp play 689.5949999961886
+DEB Played: 4.234/5
+
+ DEB-------------------------[23]-------------------------
+
+DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/acc-in-mp4-192.aac
+yasp setsource 0
+yasp timeupdate 3.1799999997019768
+yasp canplay 691.5500000031898
+yasp play 695.5950000046869
+DEB Played: 4.272/5
+
+ DEB-------------------------[24]-------------------------
+
+DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/g64he-in-mp4.aac
+yasp setsource 0
+yasp timeupdate 1.3499999986379407
+yasp canplay 662.0550000006915
+yasp play 664.680000001681
+DEB Played: 4.299/5
+
+ DEB-------------------------[25]-------------------------
+
+DEB Audio: https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/flac-raw.flac
+yasp setsource 0
+yasp timeupdate 2.6149999976041727
+yasp canplay 704.8099999956321
+yasp play 705.8249999972759
+DEB Played: 4.225/5
