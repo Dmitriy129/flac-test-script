@@ -37,26 +37,29 @@ function run(t = 5) {
     let currentDASH = 0;
     // var audioYasp = document.getElementById('yasp');
     var tracksDASH = [
-        'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-10252940?container=mp4&codec=flac', // 0
-        'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-10259247?container=mp4&codec=flac', // 1
-        'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-12608102?container=mp4&codec=flac', // 2
-        'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13447407?container=mp4&codec=flac', // 3
-        'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13487595?container=mp4&codec=flac', // 4
-        'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13812230?container=mp4&codec=flac', // 5
-        'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13858549?container=mp4&codec=flac', // 6
-        'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-14536769?container=mp4&codec=flac', // 7
-        'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-247518?container=mp4&codec=flac', // 8
-        'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-762838?container=mp4&codec=flac', // 9
-        'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-8135003?container=mp4&codec=flac', // 10
-        'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-876383?container=mp4&codec=flac', // 11
+        // 'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-10252940?container=mp4&codec=flac', // 0
+        // 'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-10259247?container=mp4&codec=flac', // 1
+        // 'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-12608102?container=mp4&codec=flac', // 2
+        // 'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13447407?container=mp4&codec=flac', // 3
+        // 'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13487595?container=mp4&codec=flac', // 4
+        // 'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13812230?container=mp4&codec=flac', // 5
+        // 'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-13858549?container=mp4&codec=flac', // 6
+        // 'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-14536769?container=mp4&codec=flac', // 7
+        // 'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-247518?container=mp4&codec=flac', // 8
+        'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-762838', // 9
+        'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-762838?container=mp4&codec=flac', // 9-2
+        // 'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-8135003?container=mp4&codec=flac', // 10
+        // 'https://playerweb-stands.s3.yandex.net/mp4-examples/flac-mp4-876383?container=mp4&codec=flac', // 11
         'https://cdn-demo.s3.yandex.net/654d34b5-1c79-4a0b-a24d-af7841e0ee14/STRM-9313-flac-samples/ff-13-fmp4-in-mp4.mp4', // 12
+        'https://cdn-demo.s3.yandex.net/654d34b5-1c79-4a0b-a24d-af7841e0ee14/STRM-9313-flac-samples/ff-13-fmp4-in-mp4.mp4?container=mp4&codec=flac', // 12-2
         'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/1.mp4', // 13
-        'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/2.mp4', // 14
-        'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/3.mp4', // 15
-        'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/4.mp4', // 16
-        'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/5.mp4', // 17
-        'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/6.mp4', // 18
-        'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/7.mp4', // 19
+        'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/1.mp4?container=mp4&codec=flac', // 13-2
+        // 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/2.mp4', // 14
+        // 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/3.mp4', // 15
+        // 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/4.mp4', // 16
+        // 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/5.mp4', // 17
+        // 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/6.mp4', // 18
+        // 'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/7.mp4', // 19
         'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/8.mp4', // 20
         'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/aac-sample-1.aac', // 21
         'https://yastatic.net/s3/music-frontend-static/music-test-audio-mp4/mp3-in-mp4-320.mp3', // 22
